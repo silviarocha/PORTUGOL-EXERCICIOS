@@ -1,24 +1,6 @@
 programa {
 	funcao inicio() {
 	    
-	    cadeia nome
-	    cadeia sobrenome
-	    
-	    escreva("informe o seu nome : \n")
-	    leia (nome)
-	    
-	    escreva("informe o seu sobrenome : \n")
-	    leia (sobrenome)
-	    
-	    escreva("o nome completo informado eh: ", nome, sobrenome)
-	}
-}
-
-
-
-programa {
-	funcao inicio() {
-	    
 	    /*determinacao de variaveis*/
 	  inteiro x, y
 	  inteiro divisao
@@ -38,7 +20,6 @@ programa {
 	  
 	}
 }
-
 
 programa {
 	funcao inicio() {
@@ -62,7 +43,6 @@ programa {
 	  
 	}
 }
-
 
 
 programa {
@@ -111,32 +91,6 @@ programa {
 	  
 	}
 }
-
-
-/* escreva um programa que leia o nome de uma pessoa, sua idade e escreva o nome da pessoa e a idade que ela terá daqui 5 anos. */
-programa {
-	funcao inicio() {
-	    
-	    /*determinacao de variaveis*/
-	    cadeia nome
-	    inteiro idadeAtual
-	    inteiro idadeCincAnos
-	  
-	  /*entrada de dados*/
-	  escreva("informe o seu nome: ")
-	  leia(nome)
-	  escreva("informe a sua idade:  ")
-	  leia(idadeAtual)
-	  
-	  /*processamento de dados*/
-	  idadeCincAnos = idadeAtual + 5
-	  
-	  /*saida de dados*/
-	  escreva("a idade do(a) ", nome, " daqui a 5 anos sera de: ", idadeCincAnos)
-	  
-	}
-}
-
 
 /* Imagine que seu professor deu 2 provas e 1 trabalho durante o semestre letivo. A primeira prova teve peso 2. A segunda prova teve peso 3.
 E o trabalho teve peso 4. Agora que você é um programador, você deseja criar um programa que calcule a sua média nesse semestre. 
