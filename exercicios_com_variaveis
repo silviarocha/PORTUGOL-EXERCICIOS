@@ -1,0 +1,73 @@
+/* eis aqui as entradas de dados */
+
+programa {
+	funcao inicio() {
+	    
+	    cadeia nome
+	    
+	    escreva("digite o seu nome: \n")
+	    leia (nome)
+	    
+	    escreva("o nome digitado foi: ", nome, "\n")
+	}
+}
+
+/*=================================================================*/
+
+programa {
+	funcao inicio() {
+	    
+	    inteiro idade
+	    
+	    escreva("digite a sua idade: \n")
+	    leia (idade)
+	    
+	    escreva("a idade digitada foi: ", idade, "\n")
+	}
+}
+
+/*=================================================================*/
+
+programa {
+	funcao inicio() {
+	    
+	    inteiro num
+	    
+	    escreva("digite um numero inteiro: \n")
+	    leia (num)
+	    
+	    escreva("o numero inteiro digitado foi : ", num, "\n")
+	}
+}
+
+/*=================================================================*/
+
+programa {
+	funcao inicio() {
+	    
+	    inteiro nota
+	    
+	    escreva("informe a sua nota : \n")
+	    leia (nota)
+	    
+	    escreva("a nota informada foi : ", nota, "\n")
+	}
+}
+
+/*=================================================================*/
+
+programa {
+	funcao inicio() {
+	    
+	    cadeia nome
+	    cadeia sobrenome
+	    
+	    escreva("informe o seu nome : \n")
+	    leia (nome)
+	    
+	    escreva("informe o seu sobrenome : \n")
+	    leia (sobrenome)
+	    
+	    escreva("o nome completo informado eh: ", nome, sobrenome)
+	}
+}
