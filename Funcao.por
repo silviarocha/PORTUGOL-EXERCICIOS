@@ -2,8 +2,8 @@
 
 programa{
     funcao inicio(){
-        escreva(positivonegativo(-5),"\n")
-        escreva(positivonegativo(1), "\n")
+        escreva(positivonegativo(6),"\n")
+        escreva(positivonegativo(-81), "\n")
     }
     funcao inteiro positivonegativo (inteiro numero){
         se(numero<0){
