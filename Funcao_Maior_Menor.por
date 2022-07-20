@@ -1,3 +1,4 @@
+//Exercício 2: Faça uma função que leia cinco valores inteiros, determine e mostre o maior e o menor deles.
 programa {
 	funcao inicio() {
 		inteiro valor[5]
